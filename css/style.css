@@ -144,4 +144,38 @@ nav .search{
     margin-right: 150px;
     margin-top: 30px;
 }
+.BlogsTwo{
+    margin-bottom: 100px;
+}
+.blogTwo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    grid-column-gap: 0px;
+}
+.blogTwo .blogTwo-image{
+    overflow: hidden;
+}
+.blogTwo .blogTwo-image img{
+    transition: 0.5s;
+}
+.blogTwo .blogTwo-image img:hover{
+    transform: scale(1.1);
+}
+.blogTwo .blogTwo-content{}
+.blogTwo .blogTwo-content h2{
+    font-size: 45px;
+}
+.blogTwo .blogTwo-content p{
+    font-size: 20px;
+}
+.blogTwo .blogTwo-content a{
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 15px 20px;
+    color: white;
+    border-radius: 6px;
+}
 /* Blog-Style-End */
