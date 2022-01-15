@@ -62,7 +62,7 @@ nav .search{
 .banner .banner-content a{
     text-decoration: none;
     background-color: aquamarine;
-    padding: 10px 20px;
+    padding: 15px 20px;
     color: white;
     border-radius: 6px;
 }
@@ -75,8 +75,73 @@ nav .search{
 }
 /* Banner-Style-End */
 /* Blog-Style-Start */
-.Blogs{}
-.blog{}
-.blog .blog-image{}
-.blog .blog-content{}
+.Blogs{
+   margin-bottom: 150px; 
+}
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 21px;
+    grid-row-gap: 20px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.blog-item{
+    border: 3px solid #F3F1FF;
+    justify-content: center;
+    align-items: center;
+}
+.blog .blog-image{
+    padding: 18px;
+    padding-bottom: 0px;
+    overflow: hidden;
+}
+.blog .blog-image img{
+    width: 100%;
+    transition: 1s;
+}
+.blog .blog-image img:hover{
+    transform: scale(1.1);
+}
+.blog .blog-content{
+    padding-top: 0px;
+    margin-top: 0px;
+    padding: 17px;
+}
+.blog .blog-content h2{
+    margin-top: 0px;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.blog .blog-content p{
+    margin-top: 20px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+} 
+.blog .blog-content span{
+    font-size: 20px;
+}
+.blog .blog-content .font{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.blog .blog-content .font span{
+    margin-left: 10px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.see-more{
+    color: aquamarine;
+    text-decoration: none;
+    font-size: 22px;
+    float: right;
+    margin-right: 150px;
+    margin-top: 30px;
+}
 /* Blog-Style-End */
