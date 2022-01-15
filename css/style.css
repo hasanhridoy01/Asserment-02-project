@@ -179,3 +179,33 @@ nav .search{
     border-radius: 6px;
 }
 /* Blog-Style-End */
+/* Footer-Section-Start */
+footer{
+    height: 160px;
+    width: 100%;
+    background-color: black;
+}
+.footer-content h4{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.footer-content p{
+    color: white;
+    text-align: center;
+}
+.socal-meida{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.socal-meida .fab{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.socal-meida .fas{
+    margin-right: 20px;
+    font-size: 20px;
+}
+/* Footer-Section-End */
