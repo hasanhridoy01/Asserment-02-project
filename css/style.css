@@ -58,7 +58,7 @@ nav .search{
 }
 .banner .banner-content a{
     text-decoration: none;
-    background-color: rgb(9, 9, 119);
+    background-color: rgb(77, 185, 199);
     padding: 15px 20px;
     color: white;
     border-radius: 6px;
@@ -136,7 +136,7 @@ nav .search{
     color: #AEAEAE;
 }
 .see-more{
-    color: rgb(9, 9, 119);
+    color: rgb(77, 185, 199);
     text-decoration: none;
     font-size: 22px;
     float: right;
@@ -171,7 +171,7 @@ nav .search{
 }
 .blogTwo .blogTwo-content a{
     text-decoration: none;
-    background-color: rgb(9, 9, 119);
+    background-color: rgb(77, 185, 199);
     padding: 15px 20px;
     color: white;
     border-radius: 6px;
