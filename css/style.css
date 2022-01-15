@@ -56,6 +56,9 @@ nav .search{
 .banner .banner-content p{
     font-size: 20px;
 }
+.arrow{
+    margin-left: 10px;
+}
 .banner .banner-content a{
     text-decoration: none;
     background-color: rgb(77, 185, 199);
