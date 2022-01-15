@@ -58,10 +58,12 @@ nav .search{
 }
 .banner .banner-content a{
     text-decoration: none;
-    background-color: aquamarine;
+    background-color: rgb(9, 9, 119);
     padding: 15px 20px;
     color: white;
     border-radius: 6px;
+    font-weight: 800;
+    font-family: cursive;
 }
 .banner .banner-image{
     margin-top: 30px;
@@ -134,7 +136,7 @@ nav .search{
     color: #AEAEAE;
 }
 .see-more{
-    color: aquamarine;
+    color: rgb(9, 9, 119);
     text-decoration: none;
     font-size: 22px;
     float: right;
@@ -169,19 +171,22 @@ nav .search{
 }
 .blogTwo .blogTwo-content a{
     text-decoration: none;
-    background-color: aquamarine;
+    background-color: rgb(9, 9, 119);
     padding: 15px 20px;
     color: white;
     border-radius: 6px;
+    font-weight: 800;
+    font-family: cursive;
 }
 /* Blog-Style-End */
 /* Footer-Section-Start */
 footer{
-    height: 160px;
+    height: 180px;
     width: 100%;
     background-color: black;
+    padding: 10px;
 }
-.footer-content h4{
+.footer-title{
     color: white;
     font-size: 30px;
     margin-bottom: 0px;
@@ -195,6 +200,7 @@ footer{
     color: white;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px
 }
 .socal-meida .fab{
     margin-right: 20px;
